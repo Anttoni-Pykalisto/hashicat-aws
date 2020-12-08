@@ -2,8 +2,7 @@ module "s3-bucket" {
   source  = "app.terraform.io/anttoni-training/s3-bucket/aws"
   version = "1.15.0"
 
-  bucket = "my-s3-bucket"
-  bucket_prefix = "anttonipykalisto"
+  bucket_prefix = "anttonipykalisto-"
   acl    = "private"
 
   versioning = {
