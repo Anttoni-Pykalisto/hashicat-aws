@@ -6,7 +6,7 @@
 # prompted to enter it (or define it via config file or command line flags.)
 
 variable "prefix" {
-  description = "This prefix will be included in the name of most resources."
+  description = "thanrahan"
 }
 
 variable "region" {
@@ -25,7 +25,7 @@ variable "subnet_prefix" {
 }
 
 variable "instance_type" {
-  description = "Specifies the AWS instance type."
+  description = "thanrahan"
   default     = "t2.micro"
 }
 
